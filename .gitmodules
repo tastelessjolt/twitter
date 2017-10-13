@@ -1,0 +1,3 @@
+[submodule "client/soc-med"]
+	path = client/soc-med
+	url = git@github.com:tastelessjolt/soc-med.git
