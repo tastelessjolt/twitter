@@ -5,12 +5,17 @@ Team
 - Akash Trehan - 150050031
 
 ## Guidelines 
-1. You can find the backup of out server at sql/backup1.sql, if that doesn't work then try using create.sql and data.sql, even if that doesn't work, try using sql/backup.sql
-
+1. You can find the sqldump of our server at sql/backup1.sql, if that doesn't work then try using create.sql and data.sql, even if that doesn't work, try using sql/backup.sql
 2. server folder contains the whole project
 3. client folder contains the whole android-studio project
 4. Server details can be changed in the file Constants.java
 5. Also added required jar to run the server
+
+To setup the project,
+1. Change the URL of the server in Constants.java in client.
+2. Change the username, password and jdbc connection string in DbHandler.java in backend.
+3. Fix location of Json, postgres libraries and select appropriate JDK in Eclipse if required.
+4. You're good to go!
 
 ## Features 
 1. Automatic Infinite scrolling on both directions for only Feed.
